@@ -2,7 +2,7 @@ from django.shortcuts import render
 from rest_framework import generics
 from cars.serializers import CarDetailSerializer, CarListSerializer
 from cars.models import Car
-
+# test
 # Create your views here.
 
 class CarCreateView(generics.CreateAPIView):
